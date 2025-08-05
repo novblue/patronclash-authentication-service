@@ -1,0 +1,12 @@
+# Production Profile
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+  jpa:
+    show-sql: false
+
+security:
+  jwt:
+    secret: ${JWT_SECRET} # Must be set in production

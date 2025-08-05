@@ -1,1 +1,1 @@
-# fanduel-auth-service
+just a poc for studying a different domain and architecture
